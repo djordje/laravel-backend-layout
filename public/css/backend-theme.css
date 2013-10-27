@@ -1,0 +1,5 @@
+/* Fixed navbar require body padding to avoid content overlapping! */
+body {
+    padding-top: 60px;
+}
+
