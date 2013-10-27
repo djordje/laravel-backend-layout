@@ -1,0 +1,26 @@
+{
+    "name": "djordje/laravel-backend-layout",
+    "description": "Simple backend layout based on Twitter Bootstrap 3 for rapid backend view creation.",
+    "keywords": ["twbs", "laravel", "backend", "blade", "layout", "bootstrap 3"],
+    "licence": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Djordje Kovacevic",
+            "homepage": "http://djordjekovacevic.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "djordje/laravel-twbs-helpers": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Djordje\\LaravelBackendLayout": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
