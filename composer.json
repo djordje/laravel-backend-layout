@@ -2,7 +2,7 @@
     "name": "djordje/laravel-backend-layout",
     "description": "Simple backend layout based on Twitter Bootstrap 3 for rapid backend view creation.",
     "keywords": ["twbs", "laravel", "backend", "blade", "layout", "bootstrap 3"],
-    "licence": "MIT",
+    "license": "MIT",
     "minimum-stability": "dev",
     "authors": [
         {
