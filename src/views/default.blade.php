@@ -18,6 +18,10 @@
 	{{ HTML::style(Config::get('laravel-backend-layout::package_asset_path').'/css/bootstrap-theme.min.css') }}
 	{{ HTML::style(Config::get('laravel-backend-layout::package_asset_path').'/css/backend-theme.css') }}
 
+	@foreach (Config::get('laravel-backend-layout::css') as $link)
+		{{ HTML::style($link) }}
+	@endforeach
+
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
 		{{ HTML::script(Config::get('laravel-backend-layout::package_asset_path').'/js/lib/html5shiv.js') }}
@@ -27,6 +31,10 @@
 	{{ HTML::script(Config::get('laravel-backend-layout::package_asset_path').'/js/lib/jquery-1.10.2.min.js') }}
 	{{ HTML::script(Config::get('laravel-backend-layout::package_asset_path').'/js/lib/bootstrap.min.js') }}
 	{{ HTML::script(Config::get('laravel-backend-layout::package_asset_path').'/js/backend-helper.js') }}
+
+	@foreach (Config::get('laravel-backend-layout::js') as $link)
+		{{ HTML::script($link) }}
+	@endforeach
 
 	@yield('head_hook')
 </head>
