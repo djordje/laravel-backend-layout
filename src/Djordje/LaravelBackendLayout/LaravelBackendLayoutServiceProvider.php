@@ -1,6 +1,5 @@
 <?php namespace Djordje\LaravelBackendLayout;
 
-use Djordje\LaravelBackendLayout\Console\InstallCommand;
 use Illuminate\Support\ServiceProvider;
 
 class LaravelBackendLayoutServiceProvider extends ServiceProvider {
