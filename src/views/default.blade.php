@@ -30,6 +30,7 @@
 
 	{{ HTML::script(Config::get('laravel-backend-layout::package_asset_path').'/js/lib/jquery-1.10.2.min.js') }}
 	{{ HTML::script(Config::get('laravel-backend-layout::package_asset_path').'/js/lib/bootstrap.min.js') }}
+	{{ HTML::script(Config::get('laravel-backend-layout::package_asset_path').'/js/lib/bootbox.min.js') }}
 	{{ HTML::script(Config::get('laravel-backend-layout::package_asset_path').'/js/backend-helper.js') }}
 
 	@foreach (Config::get('laravel-backend-layout::js') as $link)
