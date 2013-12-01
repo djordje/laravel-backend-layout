@@ -16,6 +16,7 @@
 
 	{{ HTML::style(Config::get('laravel-backend-layout::package_asset_path').'/css/bootstrap.min.css') }}
 	{{ HTML::style(Config::get('laravel-backend-layout::package_asset_path').'/css/bootstrap-theme.min.css') }}
+	{{ HTML::style(Config::get('laravel-backend-layout::package_asset_path').'/css/font-awesome.min.css') }}
 	{{ HTML::style(Config::get('laravel-backend-layout::package_asset_path').'/css/backend-theme.css') }}
 
 	@foreach (Config::get('laravel-backend-layout::css') as $link)
